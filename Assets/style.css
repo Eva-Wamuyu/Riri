@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+  color: whitesmoke;
+  background-color: black;
+} */
+
+.popup{
+  background-color: rgb(231, 238, 237);
+  position: absolute;
+  top: 12vh;
+  width: 85vw;
+  display: none;
+  color: black;
+}
+.popup1{
+  top: 440px;
+}
+.popup2{
+  top:840px;
+}
+.popup3{
+  top: 1200px;
+}
+
+.shows{
+  display: block;
+  
+}
+.hides{
+  display: none;
+}
+button{
+  justify-content: center;
+}
+h3>span{
+  cursor: pointer;
+}
+#album .col-sm-12{
+ 
+
+}
+body{
+  background-color: rgb(11, 16, 27);
+  color: white;
+}
+h3{
+  text-align: center;
+}
+.songs pre{
+  display: none;
+  
+
+}
+.songs h3{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+#albums button{
+  width: 125px;
+  margin: 24px 84px 24px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+#albums button:hover{
+  color: black;
+  background-color: white;
+
+}
+
+
+
+/*when there will be need to add more popup*/
+/* .popup3{
+  top: 1200px;
+}
+.popup3{
+  top: 1200px;
+}
+.popup3{
+  top: 1200px;
+}
+.popup3{
+  top: 1200px;
+}
+.popup3{
+  top: 1200px;
+} */
+.empty{
+  display: none;
+}
+.header{
+  background-image: url("./Rihanna.png");
+  background-color: black;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  height: 16.5vh;
+  
+}
+h2{
+  text-align: center;
+}
+.nav{
+  background-color: rgb(0, 0, 0);
+  border-bottom: solid white 1px;
+}
+.nav li a{
+  color: aliceblue;
+}
+.nav{
+  justify-content: center;
+}
+@media only screen and (min-width:767px){
+  .popup{
+    width: 30vw;
+    margin: auto;
+    left: 35vw;
+  }
+  .popup2,.popup3,.popup4{
+    top: 12vh;
+  }
+  .empty{
+    display: block;
+  }
+  #songbody1, #songbody2, .songbody3, .songbody4{
+    width: 45vw;
+    margin: auto;
+  }
+  .nav{
+    width: 45vw;
+    margin: auto;
+    height: 64px;
+    
+  }
+ 
+
+}
+@media only screen and (max-width:767px){
+  .popup{
+    top: 25vh;
+  }
+  .popup1{
+    top: 680px;
+  }
+  .popup2{
+    top: 1150px;
+
+  }
+  .popup3{
+    top: 1580px;
+
+  }
+}
